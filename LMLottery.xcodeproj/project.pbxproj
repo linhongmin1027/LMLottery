@@ -14,6 +14,7 @@
 		0F38704C1F8BC39A0056B673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F38704A1F8BC39A0056B673 /* LaunchScreen.storyboard */; };
 		0F38704F1F8BC39A0056B673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F38704E1F8BC39A0056B673 /* main.m */; };
 		0F3870661F8BC71E0056B673 /* LMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3870651F8BC71E0056B673 /* LMResponse.m */; };
+		84615B7E1F8CA34000FD81E7 /* Mygit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84615B7D1F8CA34000FD81E7 /* Mygit.m */; };
 		8489031A1F8C8E1C00956F96 /* LihengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848903191F8C8E1C00956F96 /* LihengViewController.m */; };
 		DC4AE083019062107E722F73 /* libPods-LMLottery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5374BA6D8A4DF782BFBDA51B /* libPods-LMLottery.a */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,8 @@
 		0F3870651F8BC71E0056B673 /* LMResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMResponse.m; sourceTree = "<group>"; };
 		3A9FB9E04A40973A44799848 /* Pods-LMLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMLottery/Pods-LMLottery.release.xcconfig"; sourceTree = "<group>"; };
 		5374BA6D8A4DF782BFBDA51B /* libPods-LMLottery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMLottery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84615B7C1F8CA34000FD81E7 /* Mygit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mygit.h; sourceTree = "<group>"; };
+		84615B7D1F8CA34000FD81E7 /* Mygit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mygit.m; sourceTree = "<group>"; };
 		848903181F8C8E1C00956F96 /* LihengViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LihengViewController.h; sourceTree = "<group>"; };
 		848903191F8C8E1C00956F96 /* LihengViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LihengViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +191,8 @@
 				0F3870401F8BC39A0056B673 /* AppDelegate.m */,
 				848903181F8C8E1C00956F96 /* LihengViewController.h */,
 				848903191F8C8E1C00956F96 /* LihengViewController.m */,
+				84615B7C1F8CA34000FD81E7 /* Mygit.h */,
+				84615B7D1F8CA34000FD81E7 /* Mygit.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84615B7E1F8CA34000FD81E7 /* Mygit.m in Sources */,
 				8489031A1F8C8E1C00956F96 /* LihengViewController.m in Sources */,
 				0F3870441F8BC39A0056B673 /* ViewController.m in Sources */,
 				0F38704F1F8BC39A0056B673 /* main.m in Sources */,
